@@ -4,6 +4,8 @@ Eduardo Gutiérrez Tapia:
 Configure el repositorio en GitHub; organice la estructura del proyecto, implemente las clases del modelo
 "Participante" e "Interfaz"
 
+Carlos Yael Villegas Beltran:
+
 
 CONCLUSIONES (INDIVIDUALES):
 
@@ -15,6 +17,10 @@ COMPLICACIONES AL REALIZAR EL PROYECTO:
 Eduardo Gutiérrez Tapia:
 Tuve problemas para modelar la duración y efectos de items lo que se me ocurrió fue
 simplificar las reglas y documentarlas.
+
+Carlos Yael Villegas Beltran:
+Una de las principales complicaciones técnicas surgió al gestionar el acceso simultáneo de los hilos al recurso compartido, específicamente en el momento en que los vehículos tomaban una caja de objetos y debían aplicar una penalización a un oponente aleatorio mientras otros seguían avanzando. Sin la protección adecuada, se generaban condiciones de carrera (race conditions) donde dos hilos intentaban modificar el estado de un mismo participante al mismo tiempo, lo que provocaba inconsistencias en el contadorde turnos perdidos o errores en el orden del log de la consola.
+Esta dificultad se superó mediante la aplicación estricta de la palabra clave synchronized en los métodos críticos de la clase Carrera, lo que garantizó que solo un hilo pudiera modificar o leer el estado global de la competencia a la vez, protegiendo la integridad de los datos y asegurando un registro preciso en el archivo de resultados finales.
 
 USO DE IA: 
 
