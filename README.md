@@ -4,17 +4,27 @@ Eduardo Gutiérrez Tapia:
 Configure el repositorio en GitHub; organice la estructura del proyecto, implemente las clases del modelo
 "Participante" e "Interfaz"
 
+Carlos Yael Villegas Beltran:
+Organicé la estructura del proyecto e implemente las clases del modelo "Participante" y "carrera"
+Verifique que cumplieran con la rúbrica de evaluación
 
 CONCLUSIONES (INDIVIDUALES):
 
 Eduardo Gutiérrez Tapia:
 Comprendi mejor la modelación de objetos y la importancia de encapsular estado y comportamiento; practicar métodos y pruebas me ayudó a consolidar conceptos de POO.
 
+Carlos Yael Villegas Beltran:
+El desarrollo del proyecto me permitió consolidar de manera práctica el uso de la concurrencia y la sincronización en Java, logrando simular una carrera interactiva donde cada vehículo actúa de forma autónoma a través de hilos independientes. La correcta separación de responsabilidades entre el comportamiento de los participantes y el control de la pista facilitó un diseño modular, asegurando el cumplimiento del encapsulamiento y el manejo eficiente de los recursos del sistema.
+
 COMPLICACIONES AL REALIZAR EL PROYECTO:
 
 Eduardo Gutiérrez Tapia:
 Tuve problemas para modelar la duración y efectos de items lo que se me ocurrió fue
 simplificar las reglas y documentarlas.
+
+Carlos Yael Villegas Beltran:
+Una de las principales complicaciones técnicas surgió al gestionar el acceso simultáneo de los hilos al recurso compartido, específicamente en el momento en que los vehículos tomaban una caja de objetos y debían aplicar una penalización a un oponente aleatorio mientras otros seguían avanzando. Sin la protección adecuada, se generaban condiciones de carrera (race conditions) donde dos hilos intentaban modificar el estado de un mismo participante al mismo tiempo, lo que provocaba inconsistencias en el contador de turnos perdidos o errores en el orden del log de la consola.
+Esta dificultad se superó mediante la aplicación estricta de la palabra clave synchronized en los métodos críticos de la clase Carrera, lo que garantizó que solo un hilo pudiera modificar o leer el estado global de la competencia a la vez, protegiendo la integridad de los datos y asegurando un registro preciso en el archivo de resultados finales.
 
 USO DE IA: 
 
