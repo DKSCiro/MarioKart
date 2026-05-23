@@ -26,7 +26,7 @@ Verifique que cumplieran con la rúbrica de evaluación
 CONCLUSIONES (INDIVIDUALES):
 
 Eduardo Gutiérrez Tapia:
-Comprendi mejor la modelación de objetos y la importancia de encapsular estado y comportamiento; practicar métodos y pruebas me ayudó a consolidar conceptos de POO.
+Comprendi mejor la modelación de objetos y la importancia de encapsular estado y comportamiento; practicar métodos y pruebas me ayudó a consolidar conceptos de POO. También aprender a identificar el comportamiento que tiene cada hilo y como ejecutarlos de manera correcta.
 
 Diego Omar Sánchez de Tagle Caballero:
 Este proyecto permitió aplicar de forma conjunta conceptos de POO, concurrencia y persistencia de datos en un programa funcional. Además, comprendí la importancia de realizar pruebas constantes para detectar errores relacionados con la ejecución simultánea de procesos.
@@ -40,8 +40,7 @@ El desarrollo del proyecto me permitió consolidar de manera práctica el uso de
 COMPLICACIONES AL REALIZAR EL PROYECTO:
 
 Eduardo Gutiérrez Tapia:
-Tuve problemas para modelar la duración y efectos de items lo que se me ocurrió fue
-simplificar las reglas y documentarlas.
+Tuve problemas para modelar la duración y efectos de items lo que se me ocurrió fue simplificar las reglas y documentarlas. También tuve errores al momento de ejecutar ya que no se actualizaba el archivo .txt y se generaba varios .txt fuera de la carpeta del proyecto, el problema lo arregle borrando y creando nuevante el .txt y de ahi usar bien la logica de try en el codigo, y me di cuenta de que no habia que hacer nada en el archivo .txt para que funcione correctamente. 
 
 Carlos Yael Villegas Beltran:
 Una de las principales complicaciones técnicas surgió al gestionar el acceso simultáneo de los hilos al recurso compartido, específicamente en el momento en que los vehículos tomaban una caja de objetos y debían aplicar una penalización a un oponente aleatorio mientras otros seguían avanzando. Sin la protección adecuada, se generaban condiciones de carrera (race conditions) donde dos hilos intentaban modificar el estado de un mismo participante al mismo tiempo, lo que provocaba inconsistencias en el contador de turnos perdidos o errores en el orden del log de la consola.
