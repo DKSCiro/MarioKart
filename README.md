@@ -13,7 +13,7 @@ Configure el repositorio en GitHub; organice la estructura del proyecto, impleme
 
 Adrian Sagahun Lopez
 
-Desarrollé parte de la lógica de movimiento de los vehículos y apDesarrollé parte de la lógica de movimiento de los vehículos y apoyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.oyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.
+Desarrollé parte de la lógica de movimiento de los vehículos y desarrollé parte de la lógica de movimiento de los vehículos y apoyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.oyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.
 
 Diego Omar Sánchez de Tagle Caballero:
 Apoyé en la documentación del proyecto y en la elaboración del reporte final. También participé en las pruebas generales del sistema, verificando que los turnos de bloqueo y reducción de velocidad funcionaran correctamente dentro de la simulación.
