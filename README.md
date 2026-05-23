@@ -15,6 +15,7 @@ CONCLUSIONES (INDIVIDUALES):
 
 Eduardo Gutiérrez Tapia:
 Comprendi mejor la modelación de objetos y la importancia de encapsular estado y comportamiento; practicar métodos y pruebas me ayudó a consolidar conceptos de POO.
+
 Diego Omar Sánchez de Tagle Caballero:
 Este proyecto permitió aplicar de forma conjunta conceptos de POO, concurrencia y persistencia de datos en un programa funcional. Además, comprendí la importancia de realizar pruebas constantes para detectar errores relacionados con la ejecución simultánea de procesos.
 
