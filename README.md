@@ -2,7 +2,7 @@ Alumnos:
 
 322323083 -Gutierrez Tapia Eduardo 
 322166910 - Sánchez de Tagle Caballero Diego Omar
-No de cuenta -Villegas Beltran Carlos Yael
+318026125 -Villegas Beltran Carlos Yael
 
 
 ¿QUÉ HIZO CADA INTEGRANTE DEL EQUIPO?
