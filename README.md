@@ -1,7 +1,6 @@
 Alumnos:
 
 322323083 -Gutierrez Tapia Eduardo 
-
 319119958 -Sagahun López Adrian
 322166910 -Sánchez de Tagle Caballero Diego Omar
 318026125 -Villegas Beltran Carlos Yael
