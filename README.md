@@ -11,7 +11,7 @@ Eduardo Gutiérrez Tapia:
 Configure el repositorio en GitHub; organice la estructura del proyecto, implemente las clases del modelo
 "Participante" e "Interfaz"
 
-Adrian Sagahun Lopez
+Adrian Sagahun Lopez:
 
 Desarrollé parte de la lógica de movimiento de los vehículos y desarrollé parte de la lógica de movimiento de los vehículos y apoyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.oyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.
 
