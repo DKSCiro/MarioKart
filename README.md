@@ -1,3 +1,10 @@
+Alumnos:
+
+No de cunenta -Gutierrez Tapia Eduardo 
+322166910 - Sánchez de Tagle Caballero Diego Omar
+No de cuenta -Villegas Beltran Carlos Yael
+
+
 ¿QUÉ HIZO CADA INTEGRANTE DEL EQUIPO?
 
 Eduardo Gutiérrez Tapia: 
