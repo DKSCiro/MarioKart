@@ -11,6 +11,10 @@ Eduardo Gutiérrez Tapia:
 Configure el repositorio en GitHub; organice la estructura del proyecto, implemente las clases del modelo
 "Participante" e "Interfaz"
 
+Adrian Sagahun Lopez
+
+Desarrollé parte de la lógica de movimiento de los vehículos y apDesarrollé parte de la lógica de movimiento de los vehículos y apoyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.oyé en la implementación de los métodos synchronized para evitar errores de concurrencia. Además, participé en las pruebas del archivo ranking_final.txt y en la validación del funcionamiento de los objetos aleatorios.
+
 Diego Omar Sánchez de Tagle Caballero:
 Apoyé en la documentación del proyecto y en la elaboración del reporte final. También participé en las pruebas generales del sistema, verificando que los turnos de bloqueo y reducción de velocidad funcionaran correctamente dentro de la simulación.
 
@@ -26,6 +30,9 @@ Comprendi mejor la modelación de objetos y la importancia de encapsular estado 
 Diego Omar Sánchez de Tagle Caballero:
 Este proyecto permitió aplicar de forma conjunta conceptos de POO, concurrencia y persistencia de datos en un programa funcional. Además, comprendí la importancia de realizar pruebas constantes para detectar errores relacionados con la ejecución simultánea de procesos.
 
+Adrian Sagahun Lopez:
+Este proyecto me ayudó a comprender mejor cómo funcionan los hilos en Java y la importancia de sincronizar correctamente los recursos compartidos. También reforcé mis conocimientos sobre manejo de archivos y trabajo colaborativo utilizando GitHub.
+
 Carlos Yael Villegas Beltran:
 El desarrollo del proyecto me permitió consolidar de manera práctica el uso de la concurrencia y la sincronización en Java, logrando simular una carrera interactiva donde cada vehículo actúa de forma autónoma a través de hilos independientes. La correcta separación de responsabilidades entre el comportamiento de los participantes y el control de la pista facilitó un diseño modular, asegurando el cumplimiento del encapsulamiento y el manejo eficiente de los recursos del sistema.
 
@@ -38,6 +45,9 @@ simplificar las reglas y documentarlas.
 Carlos Yael Villegas Beltran:
 Una de las principales complicaciones técnicas surgió al gestionar el acceso simultáneo de los hilos al recurso compartido, específicamente en el momento en que los vehículos tomaban una caja de objetos y debían aplicar una penalización a un oponente aleatorio mientras otros seguían avanzando. Sin la protección adecuada, se generaban condiciones de carrera (race conditions) donde dos hilos intentaban modificar el estado de un mismo participante al mismo tiempo, lo que provocaba inconsistencias en el contador de turnos perdidos o errores en el orden del log de la consola.
 Esta dificultad se superó mediante la aplicación estricta de la palabra clave synchronized en los métodos críticos de la clase Carrera, lo que garantizó que solo un hilo pudiera modificar o leer el estado global de la competencia a la vez, protegiendo la integridad de los datos y asegurando un registro preciso en el archivo de resultados finales.
+
+Adrian Sagahun Lopez:
+Una complicación importante fue coordinar la ejecución simultánea de todos los participantes sin que el programa terminara abruptamente o generara posiciones incorrectas. También hubo dificultades para hacer que los efectos de los objetos se mantuvieran exactamente durante el número de turnos requerido.
 
 Diego Omar Sánchez de Tagle Caballero
 Durante el desarrollo tuve problemas al momento de integrar todas las partes del proyecto, ya que algunos métodos tenían comportamientos diferentes dependiendo del hilo que los ejecutaba. También se me complicó verificar manualmente el orden correcto de llegada debido a la naturaleza concurrente del programa. 
